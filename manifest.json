@@ -1,0 +1,26 @@
+{
+  "name": "Vialdi CSS Import for Kendea",
+  "author": "Kendea",
+  "description": "chrome extension for customize CSS and JS.",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "web_accessible_resources": ["*"],
+  "permissions": ["storage"],
+  "icons": {
+   "48": "icons/48.png"
+  },
+   "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*"],
+      "css": ["google/style.css"],"js": ["google/script.js"]
+    },
+    {
+      "matches": ["https://platform.classi.jp/group2/*"],
+      "css": ["classi-platform/style.css"],"js": ["classi-platform/script.js"]
+    },
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["YouTube/style.css"],"js": ["YouTube/script.js"]
+    }
+  ]
+}

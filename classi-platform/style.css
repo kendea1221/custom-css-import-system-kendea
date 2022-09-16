@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+
+body{
+    font-family: 'DotGothic16', sans-serif;
+    background-image: url(https://img.freepik.com/premium-photo/digital-cyberspace-and-data-network-connections_24070-1044.jpg?w=2000);
+}
+
+#header{
+    background-image: url(https://img01.jalannews.jp/img/2020/11/20201124_hoshizora_019.jpg)
+}
+
+#header .gNavi li {
+    border-right: 0px!important;
+}
+.spen-ly-global-header {
+    background-image: url(https://img01.jalannews.jp/img/2020/11/20201124_hoshizora_019.jpg)
+}
+
+.spen-ly-global-menu-list .menu-list-wrapper {
+    backdrop-filter: blur(9px);
+    background-color: rgb(98 98 98 / 11%);
+}
+
+.spen-ly-global-header .header-content {
+    border-right: 0px!important;
+}
+
+.spen-ly-global-header .user-information .user-icon {
+    border-radius: 34px;
+    backdrop-filter: blur(9px);
+}
+
+.mod-message {
+    display: block;
+    color: blue;
+    border: 1px solid #ccc;
+    padding: 16px 13px 0;
+    background-color:#c8e7fa;
+    border-radius: 15px;
+}
+
+.group-item-list{
+    background-color: rgb(255, 222, 172);
+}
+
+.new-item-list{
+    background-color: #ccc;
+    border: 1px black;
+}
+
+.header{
+    background-color: blanchedalmond;
+}
