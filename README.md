@@ -148,3 +148,6 @@ console.log("インポートできています")
 一応licenseはありますのでお読みください。
 
 最期までありがとうございました。
+
+## CopyLight
+- 2022 [Kendea](kendea.com@gmail.com) all rights reserved.
