@@ -1,1 +1,1 @@
-console.log("下地氏ね")
+console.log("正しくインポートできています")
